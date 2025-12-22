@@ -45,6 +45,10 @@ x-rails-env: &rails_env
   OPENAI_ACCESS_TOKEN: ${OPENAI_ACCESS_TOKEN}
 
 services:
+  app_proxy:
+    environment:
+      APP_HOST: jrodriguezruibal-sure_web_1
+      APP_PORT: 3000
   web:
     image: ghcr.io/we-promise/sure:latest
     volumes:
