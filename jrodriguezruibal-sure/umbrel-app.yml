@@ -1,28 +1,22 @@
-manifestVersion: 1
 id: jrodriguezruibal-sure
 name: Sure
-tagline: "Personal finance app"
-icon: https://svgur.com/i/mvA.svg
-category: finances
-version: "0.6.6-alpha.6"
-port: 3000
-description:
-  short: "Gestor de finanzas personales, fork de Maybe."
-  long: "Sure es una app de finanzas personales autoalojada..."
-developer: "we-promise / jjmata"
+version: "0.6.6"
+tagline: "Gestor de finanzas personales"
+icon: icon.svg
 
+category: finances
+
+description:
+  short: "Sure es una app de finanzas personales autoalojada (fork de Maybe)."
+  long: >
+    Sure te permite conectar cuentas bancarias, categorizar gastos
+    y hacer seguimiento de tu patrimonio desde tu propio servidor.
+
+developer: "jrodriguezruibal"
 website: "https://github.com/we-promise/sure"
-submitter: jrodriguezruibal
-submission: "https://github.com/we-promise/sure"
-repo: "https://github.com/we-promise/sure"
-support: "https://github.com/getumbrel/umbrel-hello-world-app/issues"
-gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-releaseNotes: >-
-  Add what's new in the latest version of your app here.
-dependencies: []
-path: ""
-defaultUsername: ""
-defaultPassword: ""
+repository: "https://github.com/we-promise/sure"
+support: "https://github.com/we-promise/sure/issues"
+
+port: 3000
+releaseNotes: "Primer paquete para Umbrel desde Community App Store."
+
