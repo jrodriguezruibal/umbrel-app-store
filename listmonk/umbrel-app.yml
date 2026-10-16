@@ -1,0 +1,36 @@
+manifestVersion: 1
+id: listmonk
+name: listmonk
+tagline: Newsletter, mailing list and email campaign manager
+icon: https://raw.githubusercontent.com/knadh/listmonk/master/static/admin/assets/static/logo.png
+category: social
+version: "6.2.0"
+port: 9000
+description: >-
+  listmonk is a self-hosted newsletter and mailing list manager with a clean
+  dashboard for managing subscribers, lists, campaigns and templates.
+
+
+  It sends email through an external SMTP relay (Postmark), handles
+  subscriptions, opt-in confirmations, unsubscriptions and bounce/complaint
+  tracking, and provides rich segmentation and analytics for campaigns.
+
+
+  This app runs listmonk together with its own PostgreSQL database. Configure
+  the SMTP relay in Admin → Settings → SMTP after the first login.
+developer: knadh
+website: https://listmonk.app
+submitter: jrodriguezruibal
+repo: https://github.com/knadh/listmonk
+support: https://github.com/knadh/listmonk/issues
+gallery:
+  - https://raw.githubusercontent.com/knadh/listmonk/master/docs/docs/content/images/splash.png
+  - https://raw.githubusercontent.com/knadh/listmonk/master/docs/docs/content/images/edit-subscriber.png
+  - https://raw.githubusercontent.com/knadh/listmonk/master/docs/docs/content/images/query-subscribers.png
+releaseNotes: >-
+  Initial release: listmonk v6.2.0 with PostgreSQL, served at listmonk.cango.io
+  via the Cloudflare tunnel and sending through Postmark.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
